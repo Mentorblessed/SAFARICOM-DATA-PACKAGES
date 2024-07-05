@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Data Packages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #e9e9e9;
+            border-radius: 4px;
+        }
+        .order-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: green;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .order-button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+    <script>
+        function placeOrder(package) {
+            const whatsappNumber = '+254746357646';
+            const message = `Hello, I want to place an order for the following package: ${package}`;
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappLink, '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Purchase Data Packages</h1>
+        <h2>CALLS AND SMS</h2>
+        <ul>
+            <li>30 calls and SMS airtime @ 19/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('30 calls and SMS airtime @ 19/-')">Place Order</a></li>
+            <li>60 calls and SMS airtime @ 38/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('60 calls and SMS airtime @ 38/-')">Place Order</a></li>
+            <li>75 calls and SMS airtime @ 47/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('75 calls and SMS airtime @ 47/-')">Place Order</a></li>
+            <li>100 calls and SMS airtime @ 64/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('100 calls and SMS airtime @ 64/-')">Place Order</a></li>
+            <li>150 calls and SMS airtime @ 95/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('150 calls and SMS airtime @ 95/-')">Place Order</a></li>
+            <li>200 calls and SMS airtime @ 128/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('200 calls and SMS airtime @ 128/-')">Place Order</a></li>
+            <li>300 calls and SMS airtime @ 190/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('300 calls and SMS airtime @ 190/-')">Place Order</a></li>
+        </ul>
+        <h2>MONTHLY MINUTES OFFERS</h2>
+        <ul>
+            <li>300 minutes + 500 SMS @ 475/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('300 minutes + 500 SMS @ 475/-')">Place Order</a></li>
+            <li>800 minutes + 1000 SMS @ 950/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('800 minutes + 1000 SMS @ 950/-')">Place Order</a></li>
+            <li>1700 minutes + 5000 SMS @ 1900/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('1700 minutes + 5000 SMS @ 1900/-')">Place Order</a></li>
+        </ul>
+        <h2>NO EXPIRY BUNDLES + Free WhatsApp</h2>
+        <ul>
+            <li>500MB @ 95/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('500MB @ 95/-')">Place Order</a></li>
+            <li>1GB @ 190/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('1GB @ 190/-')">Place Order</a></li>
+            <li>2.5GB @ 475/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('2.5GB @ 475/-')">Place Order</a></li>
+            <li>5GB @ 950/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('5GB @ 950/-')">Place Order</a></li>
+            <li>10GB @ 1900/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('10GB @ 1900/-')">Place Order</a></li>
+        </ul>
+        <h2>DAILY DATA</h2>
+        <ul>
+            <li>1GB @ 95/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('1GB @ 95/-')">Place Order</a></li>
+        </ul>
+        <h2>WEEKLY + Free WhatsApp</h2>
+        <ul>
+            <li>500MB @ 95/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('500MB @ 95/-')">Place Order</a></li>
+            <li>1.5GB @ 238/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('1.5GB @ 238/-')">Place Order</a></li>
+            <li>3.5GB @ 475/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('3.5GB @ 475/-')">Place Order</a></li>
+            <li>10GB @ 950/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('10GB @ 950/-')">Place Order</a></li>
+        </ul>
+        <h2>MONTHLY + Free WhatsApp</h2>
+        <ul>
+            <li>1GB @ 238/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('1GB @ 238/-')">Place Order</a></li>
+            <li>2.5GB @ 475/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('2.5GB @ 475/-')">Place Order</a></li>
+            <li>7GB @ 950/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('7GB @ 950/-')">Place Order</a></li>
+            <li>20GB @ 1900/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('20GB @ 1900/-')">Place Order</a></li>
+            <li>40GB @ 2850/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('40GB @ 2850/-')">Place Order</a></li>
+        </ul>
+        <h2>ALL IN ONE PACKAGES (Free WhatsApp, 2 GB YouTube & SMS Included)</h2>
+        <ul>
+            <li>2GB + 100 Minutes + 500 SMS @ 475/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('2GB + 100 Minutes + 500 SMS @ 475/-')">Place Order</a></li>
+            <li>8GB + 400 Minutes + 1000 SMS @ 950/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('8GB + 400 Minutes + 1000 SMS @ 950/-')">Place Order</a></li>
+            <li>17GB + 1000 Minutes + 2000 SMS @ 1900/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('17GB + 1000 Minutes + 2000 SMS @ 1900/-')">Place Order</a></li>
+        </ul>
+        <h2>SMS PACKAGES</h2>
+        <h3>Weekly</h3>
+        <ul>
+            <li>1000 SMS @ 29/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('1000 SMS @ 29/-')">Place Order</a></li>
+        </ul>
+        <h3>Monthly</h3>
+        <ul>
+            <li>1500 SMS @ 95/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('1500 SMS @ 95/-')">Place Order</a></li>
+            <li>3500 SMS @ 190/- <a href="javascript:void(0);" class="order-button" onclick="placeOrder('3500 SMS @ 190/-')">Place Order</a></li>
+        </ul>
+    </div>
+</body>
+</html>
